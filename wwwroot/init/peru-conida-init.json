@@ -1,0 +1,54 @@
+{
+    "catalog": [
+      {
+        "name": "Peru Initial Layers",
+        "type": "group",
+        "items": [
+          {
+            "name": "LimaMetropolitana",
+            "type": "wms",
+            "url": "http://200.60.23.226:8080/geoserver/wms",
+            "getCapabilitiesUrl": "http://200.60.23.226:8080/geoserver/wms/?service=WMS&version=1.3.0&request=GetCapabilities",
+            "isEnabled": true,
+            "isShown": true,
+            "isLegendVisible": true,
+            "layers": "GeoPortal:LimaMetropolitana",
+            "parameters": {
+              "VERSION": "1.1.1"
+            }
+          },
+          {
+            "name": "Provincias",
+            "type": "wms",
+            "url": "http://200.60.23.226:8080/geoserver/wms",
+            "getCapabilitiesUrl": "http://200.60.23.226:8080/geoserver/wms/?service=WMS&version=1.3.0&request=GetCapabilities",
+            "isEnabled": true,
+            "isShown": true,
+            "isLegendVisible": false,
+            "isEnabled": true,
+            "layers": "Limites:Provincias",
+            "parameters": {
+              "VERSION": "1.1.1"
+            }
+          }
+        ],
+        "isOpen": false
+      }
+    ],
+    "corsDomains": [
+      "whoi.edu",
+      "corsproxy.com",
+      "programs.communications.gov.au",
+      "www.asris.csiro.au"
+    ],
+    "homeCamera": {
+      "west": -77.2,
+      "east": -76.5,
+      "north": -11.5,
+      "south": -12.5
+    },
+    "baseMapName": "Bing Maps Aerial",
+    "initialViewerMode": "3d",
+    "services": []
+  }
+  

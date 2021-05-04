@@ -1,0 +1,319 @@
+{
+	"corsDomains": [
+		"data.amerigeoss.org"
+	],
+	"initialCamera": {
+		"west": -87.90078601160957,
+		"south": -18.31791109872471,
+		"east": -56.392394100907964,
+		"north": 0.440330689920997,
+		"position": {
+			"x": 2833752.2281731796,
+			"y": -8797919.38014849,
+			"z": -1504883.1333470743
+		},
+		"direction": {
+			"x": -0.30252380465724077,
+			"y": 0.9392423294770615,
+			"z": 0.16218259504093155
+		},
+		"up": {
+			"x": 0.04972238203876038,
+			"y": -0.1543725327206959,
+			"z": 0.9867607642512897
+		}
+	},
+	"baseMapName": "Bing Maps Roads",
+	"homeCamera": {
+		"west": -77.2,
+		"south": -12.5,
+		"east": -76.5,
+		"north": -11.5
+	},
+	"catalog": [{
+			"name": "Catalog",
+			"type": "group",
+			"order": 1,
+			"description": "<h2>Real-time online HTML editor</h2><p>Create and edit <a href='https://validator.w3.org/' rel='nofollow' target='_blank' title='W3C HTML validator'>W3C valid HTML code</a> without writing a single line of code. The WYSIWYG editor on the left helps non-developers write their own <em>high-quality HTML code</em>.</p><h3>Know some code? <span class='fr-emoticon fr-deletable fr-emoticon-img' style='background: url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f600.svg);'>&nbsp;</span></h3><p>The editing works both ways, with live visual feedback. Write some markup code on the right, and it will appear in the left editor.</p>",
+			"items": [
+        {
+          "name": " CONIDA",
+          "order":1,
+          "url": "http://200.60.23.226:8080/geoserver/wms/?service=WMS&version=1.3.0&request=GetCapabilities",
+          "type": "wms-getCapabilities",
+          "itemProperties": {
+              "maxRefreshIntervals": 10000
+          }
+        }
+
+			]
+		},
+		{
+			"name": "Demográfico y Socioeconómico",
+			"type": "group",
+			"description": "desc",
+			"items": [{
+					"name": "Población - General",
+					"type": "group"
+				},
+				{
+					"name": "Economía",
+					"type": "group"
+				},
+				{
+					"name": "Educación",
+					"type": "group"
+				},
+				{
+					"name": "Comunidades Indígenas",
+					"type": "group"
+				}
+			]
+		},
+		{
+			"name": "Fronteras y Limites",
+			"type": "group",
+			"items": [{
+					"name": "Nacional",
+					"type": "group"
+				},
+				{
+					"name": "Regional",
+					"type": "group"
+				},
+				{
+					"name": "Provincial",
+					"type": "group"
+				},
+				{
+					"name": "Distritos",
+					"type": "group"
+				},
+				{
+					"name": "Centros Poblados",
+					"type": "group"
+				}
+			]
+
+		},
+		{
+			"name": "Infraestructura",
+			"type": "group",
+			"items": [{
+					"name": "Transporte",
+					"type": "group"
+				},
+				{
+					"name": "Urbano",
+					"type": "group"
+				},
+				{
+					"name": "Gestión de Residuos",
+					"type": "group"
+				},
+				{
+					"name": "Salud",
+					"type": "group"
+				},
+				{
+					"name": "Energía",
+					"type": "group"
+				},
+				{
+					"name": "Comunicaciones",
+					"type": "group"
+				}
+			]
+		},
+		{
+			"name": "Biodiversidad y Ecosystemas",
+			"type": "group",
+			"items": [{
+					"name": "Vida Silvestre",
+					"type": "group"
+				},
+				{
+					"name": "Vegetación y Cubierta Terrestre",
+					"type": "group"
+				},
+				{
+					"name": "Distribución de Especies - General",
+					"type": "group"
+				},
+				{
+					"name": "Degradación",
+					"type": "group"
+				},
+				{
+					"name": "Zonificación",
+					"type": "group"
+				},
+				{
+					"name": "Ecosistemas Costeros y Marinos",
+					"type": "group"
+				},
+				{
+					"name": "Áreas Protegidas - General",
+					"type": "group"
+				},
+				{
+					"name": "Servicios de Ecosistema",
+					"type": "group"
+				}
+			]
+		},
+		{
+			"name": "Desastres",
+			"type": "group",
+			"items": [{
+					"name": "Deslizamientos de Tierra",
+					"type": "group"
+				},
+				{
+					"name": "Inundaciones",
+					"type": "group"
+				},
+				{
+					"name": "Temblores",
+					"type": "group"
+				},
+				{
+					"name": "Tsunamis",
+					"type": "group"
+				},
+				{
+					"name": "Incendios",
+					"type": "group",
+					"items": [{
+							"name": "7 day South America active fire",
+							"type": "csv",
+							"url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/c6/csv/MODIS_C6_South_America_7d.csv"
+						},
+						{
+							"name": "24hours South America active fire",
+							"type": "csv",
+							"url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/c6/csv/MODIS_C6_South_America_24h.csv"
+						}
+					]
+				},
+        {
+					"name": "Volcanes",
+					"type": "group"
+				},
+				{
+					"name": "General",
+					"type": "group"
+				}
+			]
+		},
+		{
+			"name": "Recursos Naturales",
+			"type": "group",
+			"items": [{
+					"name": "Minas y Minerales",
+					"type": "group"
+				},
+				{
+					"name": "Petróleo y Gas",
+					"type": "group",
+					"items": [{
+						"name": "Pipeline",
+						"type": "esri-mapServer",
+						"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioOleductoRuta/MapServer"
+					}]
+				},
+				{
+					"name": "Silvicultura",
+					"type": "group"
+				},
+				{
+					"name": "Agua",
+					"type": "group",
+					"items": [{
+							"name": "Agua Potable",
+							"type": "group",
+							"items": [{
+								"name": "Centros_Potabilizacion",
+								"type": "esri-mapServer",
+								"url": "https://dportalgis.vivienda.gob.pe/dfdserver/rest/services/OGEI/Centros_Potabilizacion/MapServer"
+							}]
+						},
+						{
+							"name": "Sanitation",
+							"type": "group",
+							"items": [{
+								"name": "Componentes_de_proyecto_de_saneamiento",
+								"type": "esri-mapServer",
+								"url": "https://dportalgis.vivienda.gob.pe/dfdserver/rest/services/OGEI/Componentes_de_proyecto_de_saneamiento/MapServer"
+							}]
+						}
+					]
+				},
+				{
+					"name": "Energía Solar",
+					"type": "group"
+				},
+				{
+					"name": "Vigilancia",
+					"type": "group"
+
+				}
+			]
+		},
+		{
+			"name": "Agricultura",
+			"type": "group",
+			"items": [{
+					"name": "Agrobiodiversidad",
+					"type": "group"
+				},
+				{
+					"name": "Cultivos",
+					"type": "group"
+				},
+				{
+					"name": "Riesgos",
+					"type": "group"
+				}
+			]
+		},
+		{
+			"name": "Clima",
+			"type": "group",
+			"items": [{
+					"name": "Clasificación",
+					"type": "group"
+				},
+				{
+					"name": "Meteorología y Atmósfera",
+					"type": "group"
+				},
+				{
+					"name": "Precipitación",
+					"type": "group"
+				},
+				{
+					"name": "Temperatura",
+					"type": "group"
+				}
+			]
+		},
+		{
+			"name": "Mapas Base y Elevación",
+			"type": "group",
+			"items": [{
+					"name": "Imágenes Generales",
+					"type": "group"
+				},
+				{
+					"name": "Mapas Base",
+					"type": "group"
+				},
+				{
+					"name": "Elevación",
+					"type": "group"
+				}
+			]
+		}
+	]
+}

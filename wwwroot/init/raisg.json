@@ -1,0 +1,160 @@
+{
+	"corsDomains": [
+		"data.amerigeoss.org"
+	],
+	"initialCamera": {
+		"west": -87.90078601160957,
+		"south": -18.31791109872471,
+		"east": -56.392394100907964,
+		"north": 0.440330689920997,
+		"position": {
+			"x": 2833752.2281731796,
+			"y": -8797919.38014849,
+			"z": -1504883.1333470743
+		},
+		"direction": {
+			"x": -0.30252380465724077,
+			"y": 0.9392423294770615,
+			"z": 0.16218259504093155
+		},
+		"up": {
+			"x": 0.04972238203876038,
+			"y": -0.1543725327206959,
+			"z": 0.9867607642512897
+		}
+	},
+	"baseMapName": "Bing Maps Roads",
+	"homeCamera": {
+		"west": -77.2,
+		"south": -12.5,
+		"east": -76.5,
+		"north": -11.5
+	},
+	"catalog": [{
+		"name": "Catalog",
+		"type": "group",
+		"order": 1,
+		"description": "desc",
+		"items": [
+
+			{
+				"name": "Red Amazónica de Información Socioambiental Georreferenciada",
+				"type": "group",
+				"items": [{
+					"name": "Recursos Naturales",
+					"type": "group",
+					"items": [{
+							"name": "Minerals",
+							"type": "group",
+							"items": [{
+									"name": "Minería Ilegal",
+									"type": "wms-getCapabilities",
+									"url": "https://geo.socioambiental.org/webadaptor2/services/PilotoGarimpo/garimpo_ilegal/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+								},
+								{
+									"name": "Zonas Mineras",
+									"type": "wms-getCapabilities",
+									"url": "https://geo.socioambiental.org/webadaptor2/services/raisg/raisg_mineria/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+								}
+							]
+						},
+						{
+							"name": "Petróleo y Gas",
+							"type": "group",
+							"items": [{
+								"name": "Petroleum and Gas",
+								"type": "wms-getCapabilities",
+								"url": "https://geo.socioambiental.org/webadaptor2/services/raisg/raisg_petroleo/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+							}]
+						},
+						{
+							"name": "Agua",
+							"type": "group",
+							"items": [{
+								"name": "Presas de Agua",
+								"type": "wms-getCapabilities",
+								"url": "https://geo.socioambiental.org/webadaptor2/services/raisg/raisg_energia/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+							}]
+						}
+					]
+				},
+        {
+          "name": "Biodiversidad y Ecosystemas",
+					"type": "group",
+					"items": [{
+            "name": "Áreas Protegidas - General",
+            "type": "group",
+							"items": [{
+                "name": "Mapa de Áreas Naturales Protegidas",
+                "type": "wms-getCapabilities",
+                "url": "https://geo.socioambiental.org/webadaptor2/services/raisg/raisg_anps_d/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+              },
+              {
+                "name": "Territorios Indígenas",
+                "type": "wms-getCapabilities",
+                "url": "https://geo.socioambiental.org/webadaptor2/services/raisg/raisg_tis_d/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+              }
+            ]
+
+          },
+          {
+            "name": "Vegetación y Cobertura Terrestre",
+            "type": "group",
+							"items": [{
+                "name": "Deforestación",
+                "type": "wms-getCapabilities",
+                "url": "https://geo.socioambiental.org/webadaptor2/services/raisg/raisg_deforestacion/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+              }]
+          }
+        ]
+
+        },
+        {
+          "name": "Mapas Base y Elevación",
+					"type": "group",
+					"items": [{
+            "name": "Mapas Base",
+            "type": "group",
+							"items": [{
+                "name": "Mapa Base (limites y ciudades)",
+                "type": "wms-getCapabilities",
+                "url": "https://geo.socioambiental.org/webadaptor2/services/raisg/raisg_base/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+              }]
+
+          }]
+
+        },
+        {
+          "name": "Infraestructura",
+					"type": "group",
+					"items": [{
+            "name": "Transporte",
+            "type": "group",
+							"items": [{
+                "name": "Carreteras",
+                "type": "wms-getCapabilities",
+                "url": "https://geo.socioambiental.org/webadaptor2/services/raisg/raisg_vias/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+              }]
+
+          }]
+        },
+        {
+          "name": "Desastres",
+					"type": "group",
+					"items": [{
+            "name": "Incendios",
+            "type": "group",
+							"items": [{
+                "name": "Quemas",
+                "type": "esri-mapServer",
+                "url": "https://geo.socioambiental.org/webadaptor2/rest/services/raisg/raisg_quemas/MapServer"
+              }]
+
+          }]
+        }
+
+        ]
+			}
+		]
+	}]
+}

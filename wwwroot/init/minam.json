@@ -1,0 +1,473 @@
+{
+	"corsDomains": [
+		"data.amerigeoss.org"
+	],
+	"initialCamera": {
+		"west": -87.90078601160957,
+		"south": -18.31791109872471,
+		"east": -56.392394100907964,
+		"north": 0.440330689920997,
+		"position": {
+			"x": 2833752.2281731796,
+			"y": -8797919.38014849,
+			"z": -1504883.1333470743
+		},
+		"direction": {
+			"x": -0.30252380465724077,
+			"y": 0.9392423294770615,
+			"z": 0.16218259504093155
+		},
+		"up": {
+			"x": 0.04972238203876038,
+			"y": -0.1543725327206959,
+			"z": 0.9867607642512897
+		}
+	},
+	"baseMapName": "Bing Maps Roads",
+	"homeCamera": {
+		"west": -77.2,
+		"south": -12.5,
+		"east": -76.5,
+		"north": -11.5
+	},
+	"catalog": [{
+		"name": "Catalog",
+		"type": "group",
+		"order": 1,
+		"description": "desc",
+		"items": [{
+			"name": "Ministerio del Ambiente",
+			"type": "group",
+			"items": [{
+					"name": "Biodiversidad y ecosistemas",
+					"type": "group",
+					"items": [{
+							"name": "Áreas protegidas",
+							"type": "group",
+							"items": [
+								{
+									"name": "Temáticas - Plataforma Nacional de Servicios Ecosistémicos",
+									"type": "esri-mapServer",
+									"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioTematicoPNSE/MapServer",
+									"description": "Áreas y zonas prioritarias de conservación"
+								},
+								{
+									"name": "Image Catalog",
+									"type": "esri-mapServer",
+									"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/Catalogo_Imagenes/MapServer",
+									"description": "Mapa de disponibilidad de imagenes del MINAM y Adscritos."
+								},
+								{
+									"name": "Risk Scenarios in Piura",
+									"type": "esri-mapServer",
+									"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/Escenarios_riesgo_piura/MapServer",
+									"description": "Mapa de scenarios de riesgo y análisis de vulnerabilidad  en Piura."
+								}
+							]
+						},
+						{
+							"name":"Servicios de Ecosistemas",
+							"type": "group",
+							"items": [{
+								"name": "Servicios Ecosistémicos",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServiciosEcosistemicos/MapServer",
+								"description": "Servicios de carbono forestal y servicios hidrológicos "
+						}]
+						},
+						{
+							"name": "Ecosistemas Costeros y Marinos",
+							"type": "group",
+							"items": [{
+									"name": "Erosión Marina",
+									"type": "esri-mapServer",
+									"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioGeocostaErosion/MapServer",
+									"description": " Este mapa demuestra morfologia de costa y niveles de erosión."
+								},
+								{
+									"name": "Indicadores Nacionales",
+									"type": "esri-mapServer",
+									"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioIndicadores/MapServer",
+									"description": "Red de Información y Datos del Pacífico Sur en apoyo a la Gestión Integrada de Áreas Costeras"
+								},
+								{
+									"name": "Ecosistema Marino Costero",
+									"type": "esri-mapServer",
+									"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioGeocostaEcosistema/MapServer",
+									"description": "Ecosistemas marinos costeros, morfología y ANPs y Distritos Costeros"
+								}
+							]
+						},
+						{
+							"name": "Vegetación y Cobertura Terrestre",
+							"type": "group",
+							"items": [{
+								"name": "Carbono",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioCarbono/MapServer",
+								"description": "Mapa de estimación de carbono"
+							}]
+						},
+						{
+							"name": "Distribución de especies – general ",
+							"type": "group",
+							"items": [{
+								"name": "Distribución de Especies",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioDistribucionEspecie/MapServer",
+								"description": "Mapa de distribución de algunas especies a nivel nacional. "
+							},
+							{
+								"name": "Carbono y Especies Endémicas",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioProyectoREDD/MapServer",
+								"description": "Densidad de carbono y riqueza de especies endémicas "
+							}]
+						},
+						{
+							"name": "Áreas Protegidas - General",
+							"type": "group",
+							"items": [{
+								"name": "Temáticas",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioTematicoAlertas/MapServer",
+								"description": "Mapa general de áreas protegidas y sitios de importancia "
+							}]
+						},
+						{
+							"name": "Zoning",
+							"type": "group",
+							"items": [{
+								"name": "Temáticas",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioTematico/MapServer",
+								"description": "Mapa general de áreas protegidas y de agrobiodiversidad "
+							},
+							{
+								"name": "Temáticas - PIRRGGB",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioTematicoPIRRGGB/MapServer",
+								"description": "Temáticas - PIRRGGB"
+							}]
+						},
+						{
+							"name": "Zonificación",
+							"type": "group",
+							"items": [{
+								"name": "Ecosistemas a Nivel Nacional",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioEcosistemas/MapServer",
+								"description": "Mapa de ecosistemas a nivel nacional. "
+							},
+							{
+								"name": "Representación Territorial",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRepresentacionTerritorial/MapServer",
+								"description": "Mapa de representación territorial "
+							},
+							{
+								"name": "Sitios Contaminados",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioSISCO/MapServer",
+								"description": "Sitios contaminados según tipo de actividad y clasificación del sitio "
+							},
+							{
+								"name": "Zonificación Ecológica y Económica - Nacional",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioZEE/MapServer",
+								"description": "Mapa de las Zonas Económicas Especiales (ZEE) por región "
+							},
+							{
+								"name": "Zonificación Ecológica y Económica - Provincias",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioZEEProvincias/MapServer",
+								"description": "Mapa de las Zonas Económicas Especiales (ZEE) por provincia "
+							},
+							{
+								"name": "Zonificación Ecológica y Económica - Nacional",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioZEEM/MapServer",
+								"description": "Mapa nacional de las Zonas Económicas Especiales (ZEE) "
+							}]
+						},
+						{
+							"name": "Degradación",
+							"type": "group",
+							"items": [{
+								"name": "Brechas de Inversiones por Degradación",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioBrechasInversionDegradacion/MapServer",
+								"description": "Brechas De Inversiones por Degradacion en Amazonas."
+							},
+							{
+								"name": "Degradación de Bosques ",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioDegradacion/MapServer",
+								"description": "Mapa de degradación de los bosques a nivel nacional. "
+							},
+							{
+								"name": "Proyectos de Inversión",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioProyectosInvMINAM/MapServer",
+								"description": "Mapa Proyectos Inversion MINAM"
+							}]
+						}
+					]
+				},
+				{
+					"name": "Recursos naturales",
+					"type": "group",
+					"items": [{
+							"name": "Vigilancia",
+							"type": "group",
+							"items": [{
+								"name": "Sistema de Detección  - Madre de Dios",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/MONITOREO_SIDETEVA/MapServer",
+								"description": "Sistema de Detección Temprana y Vigilancia Ambiental para la región de Madre de Dios."
+							}]
+						},
+						{
+							"name": "Petróleo y gas ",
+							"type": "group",
+							"items": [{
+								"name": "Oleoducto",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioOleductoRuta/MapServer",
+								"description": "Oleoductos en en norte del Peru"
+							}]
+						},
+						{
+							"name": "Minas Y Minerales",
+							"type": "group",
+							"items": [{
+								"name": "Actividad Minera",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioAmbiental/MapServer",
+								"description": "Pasivos ambientales mineros, concesiones mineras y lotes petroleros. "
+							}]
+						}
+					]
+				},
+				{
+					"name": "Mapas Base, Imágenes y Elevación",
+					"type": "group",
+					"items": [{
+							"name": "Mapas Base",
+							"type": "group",
+							"items": [{
+								"name": "Centros Poblados, Infraestructura y Topografía",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioBase/MapServer",
+								"description": "El mapa demuestra centros poblados, redes de transporte y topografía general a nivel nacional. "
+							}]},
+							{
+								"name": "Imágenes Generales",
+								"type": "group",
+								"items": [{
+									"name": "Areas de Conservación",
+									"type": "esri-mapServer",
+									"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ANP/MapServer",
+									"description": "El mapa muestra las Áreas Naturales Protegidas y su clasificación por categorías establecidas por el SERNAMP."
+								},
+								{
+									"name": "Catálogo de Imágenes",
+									"type": "esri-mapServer",
+									"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/Catalogo_Imagenes/MapServer",
+									"description": "Mapa de disponibilidad de imagenes del MINAM y Adscritos."
+								}]
+						}
+					]
+				},
+				{
+					"name": "Agricultura",
+					"type": "group",
+					"items": [{
+							"name": "Agrobiodiversidad",
+							"type": "group",
+							"items": [{
+								"name": "Bioseguridad Genética",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServiciosGeneticos_Bioseguridad/MapServer",
+								"description": " Mapa de especies de cultivos y vigilancia de bioseguridad"
+							}]
+						}
+					]
+				},
+				{
+					"name": "Fronteras y Limites",
+					"type": "group",
+					"items": [{
+							"name": "National",
+							"type": "group",
+							"items": [{
+								"name": "Límites Administrativos",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioLimites/MapServer",
+								"description": "Limites, centros poblados y lagos"
+							}]
+						},
+						{
+							"name": "Departmental",
+							"type": "group",
+							"items": [{
+								"name": "Límites de Departamento",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioLimitesPeru/MapServer",
+								"description": "Departamentos del Peru"
+							}]
+						},
+						{
+							"name": "Distritos",
+							"type": "group",
+							"items": [{
+								"name": "Ubigeo - Código de Ubicacíon Geográfica",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioUbigeo/MapServer",
+								"description": " Ubicación de distritos "
+							}]
+						}
+					]
+				},
+				{
+					"name": "Desastres",
+					"type": "group",
+					"items": [{
+							"name": "Incendios Forestales ",
+							"type": "group",
+							"items": [{
+								"name": "Condiciones Favorables de Incendios 2",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioCFOI2/MapServer",
+								"description": "Mapa de condiciones favorables para ocurrencia de incendios y áreas naturales protegidas. "
+							},
+							{
+								"name": "Condiciones Favorables de Incendios",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioCFOI/MapServer",
+								"description": "Mapa de registro histórico de incendios, así como condiciones favorables para ocurrencia de incendios y áreas protegidas. "
+							}]
+						},
+						{
+							"name": "General",
+							"type": "group",
+							"items": [{
+								"name": "Riesgos Regionales - Arequipa",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRiesgosArequipa/MapServer",
+								"description": "Riesgo de inundaciones, sequias, heladas, y remoción en masa en Arequipa "
+							},
+							{
+								"name": "Riesgos Regionales - Ayacucho",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRiesgosAyacucho/MapServer",
+								"description": "Riesgo de inundaciones, sequias, heladas, y remoción en masa en Ayacucho "
+							},
+							{
+								"name": "Riesgos Regionales - Cusco",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRiesgosCusco/MapServer",
+								"description": "Riesgo de inundaciones, heladas, sismos, y remoción en masa en Cusco"
+							},
+							{
+								"name": "Risegos Regionales - Huancavelica",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRiesgosHuancavelica/MapServer",
+								"description": "Riesgo de inundaciones, heladas, y remoción en masa en Huancavelica"
+							},
+							{
+								"name": "Riesgos Regionales",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRiesgos/MapServer",
+								"description": "Riesgos regionales de inundaciones, heladas, sequia, y remoción en masa "
+							},
+							{
+								"name": "Riesgos Regionales Piura",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRiesgosPiura/MapServer",
+								"description": " Riesgos regionales de inundaciones, heladas, sismos, tsunamis, y remoción en masa en Piura"
+							},
+							{
+								"name": "Riesgos Regionales - Puno",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRiesgosPuno/MapServer",
+								"description": "Riesgo de inundaciones, heladas y sequia en Puno"
+							},
+							{
+								"name": "Riesgos Regionales - Tacna",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRiesgosTacna/MapServer",
+								"description": "Riesgos regionales de inundaciones, heladas, sequias, tsunamis, volcanismo, y remoción en masa en Tacna"
+							},
+							{
+								"name": "Riesgos Regionales - Ucayali",
+								"type": "esri-mapServer",
+								"description": "Riesgo de inundaciones, sequia, y remociones en masa en Ucayali",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRiesgosUcayali/MapServer"
+							},
+							{
+								"name": "Alerta - Madre de Dios",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServiciosAlertas/MapServer",
+								"description": "Alertas en Madre de Dios desde febrero hasta octubre, 2016"
+							},
+							{
+								"name": "Susceptibilidad",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioSusceptibilidad/MapServer",
+								"description": "Mapa de susceptibilidad y infraestructura de educación y salud"
+							},
+							{
+								"name": "Mapa de Vulnerabilidad Fisica",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioVulnerabilidad/MapServer",
+								"description": "Mapa de Vulnerabilidad Física - Peligros y eventos sísmicos y geológicos "
+							}]
+						},
+						{
+							"name": "Inundaciones ",
+							"type": "group",
+							"items": [{
+								"name": "Riesgos Regionales - Callao",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRiesgosCallao/MapServer",
+								"description": "Riesgo de inundaciones en Callao"
+							}]
+						}
+					]
+				},
+				{
+					"name": "Infraestructura",
+					"type": "group",
+					"items": [{
+							"name": "Salud",
+							"type": "group",
+							"items": [{
+								"name": "Condiciones de Propagación de COVID19",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioCondicionesCovid19/MapServer",
+								"description": "Este mapa demuestra focos de infección, transmisión y condiciones para la propagación del virus por región. "
+							},
+							{
+								"name": "Infraestructura Sanitaria",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioDGRS/MapServer",
+								"description": "Mapa de infraestructura sanitaria y generación de residuos sólidos. "
+							}]
+						},
+						{
+							"name": "Gestión de Residuos",
+							"type": "group",
+							"items": [{
+								"name": "Rutas de Reciclaje de Lima",
+								"type": "esri-mapServer",
+								"url": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/ServicioRutaReciclaje/MapServer",
+								"description": "Rutas de Reciclaje en Lima por municipalidad"
+							}]
+						}
+					]
+				}
+			]
+		}]
+	}]
+}

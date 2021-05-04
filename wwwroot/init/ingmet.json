@@ -1,0 +1,514 @@
+{
+	"corsDomains": [
+		"data.amerigeoss.org"
+	],
+	"initialCamera": {
+		"west": -87.90078601160957,
+		"south": -18.31791109872471,
+		"east": -56.392394100907964,
+		"north": 0.440330689920997,
+		"position": {
+			"x": 2833752.2281731796,
+			"y": -8797919.38014849,
+			"z": -1504883.1333470743
+		},
+		"direction": {
+			"x": -0.30252380465724077,
+			"y": 0.9392423294770615,
+			"z": 0.16218259504093155
+		},
+		"up": {
+			"x": 0.04972238203876038,
+			"y": -0.1543725327206959,
+			"z": 0.9867607642512897
+		}
+	},
+	"baseMapName": "Bing Maps Roads",
+	"homeCamera": {
+		"west": -77.2,
+		"south": -12.5,
+		"east": -76.5,
+		"north": -11.5
+	},
+	"catalog": [{
+		"name": "Catalog",
+		"type": "group",
+		"order": 1,
+		"description": "desc",
+		"items": [{
+			"name": "Instituto Geologico, Minero y Metalurgico ",
+			"type": "group",
+			"items": [
+        {
+				"name": "Recursos naturales",
+				"type": "group",
+				"items": [{
+						"name": "Minas y Minerales",
+						"type": "group",
+						"items": [{
+							"name": "Ocurrencias de Minerales",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_OCURRENCIA_MINERAL/MapServer"
+						},
+            {
+							"name": "Áreas de no Admisión de Petitorios",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_ANAP/MapServer"
+						},{
+							"name": "Instituto Geográfico Nacional",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CARTA_IGN/MapServer"
+						},{
+							"name": "Proyectos Mineros",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CARTERA_PROYECTOS_MINEROS/MapServer"
+						},{
+							"name": "Catastro de Madre Dios",
+              "description": "Catastro minero de Madre de Dios y zona de pequeña minería y minería artesanal.",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MADRE_DIOS/MapServer"
+						},{
+							"name": "Catastro Minero (WGS84)",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MINERO_WGS84/MapServer"
+						},{
+							"name": "Catastro Minero",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MINERO/MapServer"
+						},{
+							"name": "Certificación Ambiental",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CERTIFICADO_AMBIENTAL/MapServer"
+						},{
+							"name": "Geocatmin",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOCATMIN_PAISES/MapServer"
+						},{
+							"name": "Información DAC Extinguida",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_INFORMACION_DAC_EXTINGUIDO/MapServer"
+						},{
+							"name": "Mapa Metalogenético del Perú",
+							"type": "esri-mapServer",
+              "description": "MAPA METALOGENÉTICO DEL PERÚ a escala 1: 1 000 000, DEPÓSITOS MINERALES, La base de datos consta de datos de minas y proyectos mineros.",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_METALOGENETICO/MapServer"
+						},{
+              "name": "Pequeña Minería",
+              "type": "esri-mapServer",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_PEQUENA_MINERIA/MapServer"
+
+            },{
+              "name": "Rocas y Minerales Industriales",
+              "type": "esri-mapServer",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_ROCAS_MINERALES_INDUSTRIALES/MapServer"
+
+            }]
+					}]
+			  },
+      {
+        "name": "Desastres",
+        "type": "group",
+        "items": [{
+          "name": "Deslizamientos de Tierra",
+						"type": "group",
+						"items": [{
+              "name": "Peligros Geológicos",
+              "type": "esri-mapServer",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_PELIGROS_GEOLOGICOS_REGIONAL/MapServer"
+
+            },
+            {
+              "name": "Peligros Geológicos ",
+              "description":"GEOCATMIN: Peligros Geológicos del Perú - Feb 2013 Contiene información sobre los peligros geológicos inventariados.",
+              "type": "esri-mapServer",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_PELIGROS_GEOLOGICOS/MapServer"
+
+            }
+          ]
+        },
+        {
+          "name": "General",
+						"type": "group",
+						"items": [{
+              "name": "Información General",
+              "type": "esri-mapServer",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_OTRAS_FUENTES/MapServer"
+            },
+            {
+              "name": "Perú Alerta",
+              "type": "esri-mapServer",
+              "description": "GEOCATMIN: Peligros Geológicos del Perú - Feb 2013 Contiene información sobre los peligros geológicos inventariados.",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_PERUALERTA/MapServer"
+            }
+          ]
+        },
+        {
+          "name": "Temblores",
+						"type": "group",
+						"items": [{
+              "name": "Neotectónica",
+              "type": "esri-mapServer",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_NEOTECTONICA/MapServer"
+            }
+          ]
+        }
+
+        ]
+      },
+      {
+        "name": "Geología",
+				"type": "group",
+				"items": [
+        {
+						"name": "Geoquímica",
+						"type": "group",
+						"items": [{
+              "name": "Atlas Geoquímico - Distribución y Principales Anomalías  Geoquímicas",
+              "description": "Resultados procesados de la Distribución y principales anomalías geoquímicas de elementos en el Orógeno Peruano (Atlas Geoquímico del Perú).",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_ATLAS_GEOQUIMICO/MapServer"
+            },
+            {
+              "name": "Atlas Geoquímico",
+              "description": "Resultados procesados de la geoquímicas de elementos en el Orógeno Peruano (Atlas Geoquímico del Perú).",
+							"type": "esri-mapServer",
+							"url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_Atlasgeoquimico/MapServer"
+            }
+          ]
+        },
+        {
+						"name": "Mapas Geológicos",
+						"type": "group",
+						"items": [
+              {
+                "name": "Carta Geológica",
+                "type": "esri-mapServer",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CARTA_GEOLOGICA/MapServer"
+              },
+              {
+                "name": "Cartografía Base",
+                "type": "esri-mapServer",
+                "description": "Conjunto de información base cartográfica del Instituto Geográfico Nacional conformado por: Caminos, ríos, arroyos, capitales, núcleos de población, áreas urbanas, elevaciones, curvas de nivel, toponimia, señal geodésica, relieve, pisos altitudinales.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CARTOGRAFIA_BASE_WGS84/MapServer"
+              },
+              {
+                "name": "Mapa Tomográfico",
+                "type": "esri-mapServer",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOFISICA/MapServer"
+              },
+              {
+                "name": "Geología 100K Integrada",
+                "type": "esri-mapServer",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_100K_INTEGRADA/MapServer"
+              },
+              {
+                "name": "Geología 100K",
+                "type": "esri-mapServer",
+                "description": "Mapas geológicos digitales a escala 1:100 000.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_100K/MapServer"
+              },
+              {
+                "name": "Geología 250K",
+                "type": "esri-mapServer",
+                "description": "Mapas geológicos digitales a escala 1:250 000.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_250K/MapServer"
+              },
+              {
+                "name": "Geología 50000",
+                "type": "esri-mapServer",
+                "description": "Contiene la geología de los mapas a escala 1:50 000 actualizada 2005-2011 y la geología de los mapas geológicos actualizada 2000-2004.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_50000/MapServer"
+              },
+              {
+                "name": "Geología 50K 2020",
+                "type": "esri-mapServer",
+                "description": "Los mapas geológicos que conforman la actualización de la Carta Geológica Nacional a escala 1:50 000 se encuentran en procesos de estandarización digital y revisión.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_50K_2020/MapServer"
+              },
+              {
+                "name": "Geología 50K Integrada",
+                "type": "esri-mapServer",
+                "description": "Mapas geológicos digitales a escala 1:50 000 (segunda version).",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_50K_INTEGRADA/MapServer"
+              },
+              {
+                "name": "Geología Integrada v2",
+                "type": "esri-mapServer",
+                "description": "27 mapas geológicos digitales a escala 1:100 000 (segunda version).",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_INTEGRADA_v2/MapServer"
+              },
+              {
+                "name": "Geología Mundial",
+                "type": "esri-mapServer",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_MUNDIAL/MapServer"
+              },
+              {
+                "name": "Mapa Geológico Perú",
+                "type": "esri-mapServer",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA/MapServer"
+              },
+              {
+                "name": "Geomorfología",
+                "type": "esri-mapServer",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOMORFOLOGIA/MapServer"
+              },
+              {
+                "name": "Índice de Mapas Geológicos",
+                "type": "esri-mapServer",
+                "description": "Contiene los límites de los boletines, cuadrángulos y mapas elaborados por INGEMMET.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_INDICE_DE_MAPAS_GEOLOGICOS/MapServer"
+              }
+            ]
+        },
+        {
+          "name": "Geología Marina",
+          "type": "group",
+          "items": [
+            {
+              "name": "Carta Geológica Marina",
+              "type": "esri-mapServer",
+              "description": "Carta geológica marina.",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CARTA_GEOLOGIA_MARINA/MapServer"
+            },
+            {
+              "name": "Geología y Carta Náutica",
+              "type": "esri-mapServer",
+              "description": "Mapa de geología y carta náutica.",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_CARTA_NAUTICA/MapServer"
+            },
+            {
+              "name": "Geología Marina",
+              "type": "esri-mapServer",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_MARINA/MapServer"
+            }
+          ]
+        },
+        {
+          "name": "Geología General",
+          "type": "group",
+          "items": [
+            {
+              "name": "Boletines",
+              "type": "esri-mapServer",
+              "description": "",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_BOLETINES/MapServer"
+            },
+            {
+              "name": "Geología Regional",
+              "type": "esri-mapServer",
+              "description": "",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOLOGIA_REGIONAL/MapServer"
+            },
+            {
+              "name": "Plan Operativo Institucional INGEMMET (FeatureServer)",
+              "type": "esri-featureServer",
+              "description": "Mapa de proyectos del Plan Operativo Institucional INGEMMET (FeatureServer).",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_POI_INGEMMET/FeatureServer"
+            },
+            {
+              "name": "Plan Operativo Institucional INGEMMET (MapServer)",
+              "type": "esri-mapServer",
+              "description": "Mapa de proyectos del Plan Operativo Institucional INGEMMET (MapServer).",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_POI_INGEMMET/MapServer"
+            },{
+              "name": "Plan Operativo Institucional - Direcciónes (FeatureServer)",
+              "type": "esri-featureServer",
+              "description": "Mapa de direcciónes del Plan Operativo Institucional  (FeatureServer).",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_POI/FeatureServer"
+            },{
+              "name": "Plan Operativo Institucional - Direcciónes (MapServer)",
+              "type": "esri-mapServer",
+              "description": "Mapa de direcciónes del Plan Operativo Institucional (MapServer).",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_POI/MapServer"
+            }
+
+          ]
+        },
+        {
+          "name": "Hidrogeología",
+          "type": "group",
+          "items": [
+            {
+              "name": "Geotérmico",
+              "type": "esri-mapServer",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOTERMICO/MapServer"
+            },
+            {
+              "name": "Hidrogeología del Perú",
+              "type": "esri-mapServer",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_HIDROGEOLOGIA_PERU/MapServer"
+            }
+          ]
+        },
+        {
+          "name": "Litología",
+          "type": "group",
+          "items": [
+            {
+              "name": "Litoteca",
+              "type": "esri-mapServer",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_LITOTECA/MapServer"
+            }
+          ]
+        },
+        {
+          "name": "Paleontología",
+          "type": "group",
+          "items": [
+            {
+              "name": "Paleontología",
+              "type":"esri-mapServer",
+              "description": "Mapa de estudios paleontológicos en el Perú.",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_PALEONTOLOGIA/MapServer"
+
+            }
+        ]
+        }
+      ]
+
+      },
+      {
+      "name": "Fronteras_y_Límites",
+				"type": "group",
+				"items": [
+          {
+          "name": "Distritos",
+          "type": "group",
+          "items": [
+            {
+              "name": "Demarcación Cartográfica WGS84",
+              "type": "esri-mapServer",
+              "description": "Límites administrativos, incluidos departamentos, provincias y distritos.",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CARTOGRAFIA_DEMARCACION_WGS84/MapServer"
+            },
+            {
+              "name": "Límites Políticos",
+              "type": "esri-mapServer",
+              "description": "Límites políticos proporcionado por INEI; incluye departamentos, provincias, y distritos.",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CLIP/MapServer"
+            },
+            {
+              "name": "Corte de Demarcación",
+              "type": "esri-mapServer",
+              "description": "Información político administrativa de los límites departamentales, provinciales y distritales del Perú Actualizada en coordinación con las entidades competentes. Contienen la ubicación cartográfica de los límites de los DISTRITOS del Perú.",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_DEMARCACION_CORTE/MapServer"
+            }
+          ]
+
+        },
+        {
+          "name": "Nacional",
+          "type": "group",
+          "items": [
+            {
+              "name": "Perú (WGS84)",
+              "type": "esri-mapServer",
+              "description": "Mapa de límite del Perú (WGS84).",
+              "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_PERU/MapServer"
+            }
+          ]
+        }
+
+      ]
+      },
+      {
+        "name": "Mapas_Base_y_Elevación",
+          "type": "group",
+          "items": [
+            {
+            "name": "Imágenes Generales",
+            "type": "group",
+            "items": [
+              {
+                "name": "Catálogo de Imágenes",
+                "type": "esri-mapServer",
+                "description": "Catálogo de imágenes satelitales de LANDSAT en Diciembre del año 2019.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CATALOGO_IMAGEN/MapServer"
+              },
+              {
+                "name": "Imagen Aster",
+                "type": "esri-mapServer",
+                "description": "Imagen Aster entre 2000 - 2011.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_IMAGEN_ASTER/MapServer"
+              }
+            ]
+
+          }]
+      },
+      {
+        "name": "Infraestructura",
+          "type": "group",
+          "items": [
+            {
+            "name": "Transporte",
+            "type": "group",
+            "items": [
+              {
+                "name": "Líneas de Vuelo",
+                "type": "esri-mapServer",
+                "description": "Mapa de líneas de vuelo.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_LINEADEVUELO/MapServer"
+              }
+              ]
+            },
+            {
+              "name": "Salud",
+              "type": "group",
+              "items": [
+                {
+                  "name": "Unidad de Enfermedades Autoinmunes Sistémicas",
+                  "type": "esri-mapServer",
+                  "description": "Mapa de unidades de enfermedades autoinmunes sistémicas en el Perú.",
+                  "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_UEAs/MapServer"
+                }
+              ]
+
+            }
+        ]
+      },
+      {
+        "name": "Climatología",
+          "type": "group",
+          "items": [
+            {
+            "name": "Criosfera",
+            "type": "group",
+            "items": [
+              {
+                "name": "Antártida",
+                "type": "esri-mapServer",
+                "description": "Análisis de roca, agua subterranea, toponimia, geología, y estudios anteriores.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_ANTARTIDA/MapServer"
+              },
+              {
+                "name": "Criosfera y Cambio Climático",
+                "type": "esri-mapServer",
+                "description": "Contiene información sobre la evolución glaciar, geomorfología, volumen y espesor de los glaciares.",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_CRIOSFERA_CAMBIO_CLIMATICO/MapServer"
+              }
+            ]
+
+          }]
+      },
+      {
+        "name": "Biodiversidad_y_Ecosystemas",
+          "type": "group",
+          "items": [
+            {
+            "name": "Áreas Protegidas - General",
+            "type": "group",
+            "items": [
+              {
+                "name": "Area Reservada",
+                "type": "esri-mapServer",
+                "url": "https://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/SERV_AREA_RESERVADA/MapServer"
+              }
+            ]
+
+          }]
+      }
+
+    ]
+		}]
+	}]
+}
