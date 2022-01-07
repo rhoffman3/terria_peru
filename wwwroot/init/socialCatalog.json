@@ -1,0 +1,31 @@
+{
+  "homeCamera": {
+      "west": 148.751,
+      "south": -35.936,
+      "east": 149.409,
+      "north": -35.111
+  },
+  "services": [],
+  "catalog": [
+    {
+      "name": "Social",
+      "type": "group",
+      "description": "",
+      "items": [
+        {
+          "name": "Population",
+          "type": "group",
+          "description": "",
+          "items": [
+            {
+              "name": "Housing Units",
+              "type": "group",
+              "description": "",
+              "items": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
